@@ -15,7 +15,7 @@ function SobreoProduto() {
             src={ImageRH}
             alt="Imagem Página Home"
             className="duration-300
-                hover:opacity-90 transition-opacity"
+                hover:opacity-90 transition-opacity rounded-sm"
           />
         </div>
         <div className="text-black flex flex-col w-full">
@@ -27,7 +27,7 @@ function SobreoProduto() {
                 hover:shadow-xl"
             >
               <p className="text-xl ">Plano Essencial</p>
-              <p className="text-sm ">
+              <p className="text-sm text-center">
                 {" "}
                 Indicado para pequenas empresas que estão começando a organizar
                 seu RH.
@@ -46,7 +46,9 @@ function SobreoProduto() {
                 hover:shadow-xl"
             >
               <p className="text-xl">Plano Profissional</p>
-              <p className="text-sm">Indicado para empresas em crescimento.</p>
+              <p className="text-sm text-center">
+                Indicado para empresas em crescimento.
+              </p>
               <p className="text-xs">
                 Desenvolvido para empresas que buscam mais eficiência e
                 agilidade na gestão de pessoas. Além do controle completo dos
@@ -61,7 +63,7 @@ function SobreoProduto() {
                 hover:shadow-xl"
             >
               <p className="text-xl">Plano Premium</p>
-              <p className="text-sm ">
+              <p className="text-sm text-center">
                 {" "}
                 Indicado para empresas que querem gestão inteligente e
                 escalável.

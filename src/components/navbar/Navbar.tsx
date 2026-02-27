@@ -3,7 +3,7 @@ import logo from "../../assets/rhizoma (2).png";
 function Navbar() {
   return (
     <>
-      <div className="w-full flex justify-center py-3">
+      <div className="w-full flex justify-center fixed bg-white">
         <div className="container flex justify-around text-lg md:mx-8 md:justify-between">
           <div className="flex items-center gap">
             <img
