@@ -62,10 +62,10 @@ function ListarPlanos() {
   ];
 
   return (
-    <section className="container mx-auto my-8 ">
+    <section className="container mx-auto my-0 md:my-8">
       <div className="flex flex-col gap-6 p-4">
         <h2 className="text-4xl text-center font-bold">Planos</h2>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {planos.map((plano) => (
             <CardPlano key={plano.id} plano={plano} />
           ))}
