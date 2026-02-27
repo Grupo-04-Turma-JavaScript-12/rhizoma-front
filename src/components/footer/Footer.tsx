@@ -1,3 +1,5 @@
+import ImgFooter from "../../assets/Rhizoma_logo.png";
+
 export function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#355872] text-white py-14 px-6">
@@ -15,7 +17,7 @@ export function Footer() {
         <div className="grid md:grid-cols-[1.3fr_1fr_1.3fr] gap-12 items-start">
           <div className="flex flex-col items-center text-center space-y-5">
             <img
-              src="/src/assets/Rhizoma_logo.png"
+              src={ImgFooter}
               alt="Rhizoma Logo"
               className="w-40 opacity-95 drop-shadow-[0_8px_20px_rgba(0,0,0,0.25)]"
             />
