@@ -1,17 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { SobreNos } from "./sobreNos/SobreNos";
 
 function App() {
   return (
     <>
-    <BrowserRouter>
       <div>
-        <Routes>
-          <Route path="/sobrenos" element={<SobreNos />} />
-        </Routes>
+        <h1>Olá</h1>
       </div>
-      </BrowserRouter>
     </>
   );
 }
