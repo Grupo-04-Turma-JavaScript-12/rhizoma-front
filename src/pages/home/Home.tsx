@@ -8,13 +8,16 @@ import SobreoProduto from "../sobreoproduto/SobreProduto";
 function Home() {
   return (
     <>
-      <div id="home" className="bg-[#355872] flex justify-center min-h-screen">
-        <div className="container grid grid-cols-2 text-white">
-          <div className="flex flex-col gap-4 items-center justify-center py-4 p-6 font-semibold">
-            <h1 className="text-5xl mb-3">
+      <div
+        id="home"
+        className="bg-[#355872] flex justify-center p-6 md:min-h-full md:py-16"
+      >
+        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 text-white">
+          <div className="flex flex-col gap-4 items-center justify-center py-4 p-6 font-semibold mb-8 md:mb-0">
+            <h1 className="text-4xl mb-3  text-center md:text-5xl md:text-left">
               Onde pessoas criam raízes e crescem juntas!{" "}
             </h1>
-            <p className="text-2xl mb-9">
+            <p className="text-xl mb-4 md:text-2xl md:mb-9">
               Sistema inteligente para centralizar, organizar e fortalecer sua
               gestão de colaboradores.
             </p>
