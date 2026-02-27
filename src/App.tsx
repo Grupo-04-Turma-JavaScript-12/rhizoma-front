@@ -1,11 +1,17 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import { SobreNos } from "./sobreNos/SobreNos";
 
 function App() {
   return (
     <>
+    <BrowserRouter>
       <div>
-        <h1>Olá</h1>
+        <Routes>
+          <Route path="/sobrenos" element={<SobreNos />} />
+        </Routes>
       </div>
+      </BrowserRouter>
     </>
   );
 }
