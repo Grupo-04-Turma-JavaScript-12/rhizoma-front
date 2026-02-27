@@ -3,22 +3,23 @@ import ImageRH from "../../assets/rh-sobre.jpg";
 function SobreoProduto() {
   return (
     <>
-      <h2 id="produto" className=" text-4xl font-bold text-center my-10">
+      <h2
+        id="produto"
+        className=" text-4xl font-bold text-center mt-10 md:my-10"
+      >
         Nossas Soluções
       </h2>
-      <div className="container mx-auto flex justify-center items-center p-8 gap-8">
-        <div className="flex justify-center w-1/2">
+      <div className="container mx-auto flex flex-col justify-center items-center p-8 gap-8 md:flex-row">
+        <div className="hidden md:flex md:justify-center md:w-1/2">
           <img
             src={ImageRH}
             alt="Imagem Página Home"
-            className="
-                duration-300
-                hover:opacity-90
-                transition-opacity"
+            className="duration-300
+                hover:opacity-90 transition-opacity"
           />
         </div>
-        <div className="text-black flex flex-col w-1/2">
-          <div className="grid grid-cols-1 gap-4">
+        <div className="text-black flex flex-col w-full">
+          <div className="grid grid-cols-1 gap-4 ">
             <div
               className="flex flex-col gap-2 items-center justify-center p-3 rounded-xl shadow-gray-200  shadow-md transition
                 duration-300
@@ -45,10 +46,7 @@ function SobreoProduto() {
                 hover:shadow-xl"
             >
               <p className="text-xl">Plano Profissional</p>
-              <p className="text-sm ">
-                {" "}
-                Indicado para empresas em crescimento.
-              </p>
+              <p className="text-sm">Indicado para empresas em crescimento.</p>
               <p className="text-xs">
                 Desenvolvido para empresas que buscam mais eficiência e
                 agilidade na gestão de pessoas. Além do controle completo dos
